@@ -1,0 +1,42 @@
+.price {
+    background: url(../images/bals.png) no-repeat;
+    background-position: center right 16%;
+}
+
+.price__title {
+    & span {
+        margin-left: 120px;
+    }
+}
+
+.title {}
+
+.price__content {
+    display: flex;
+    margin: 0px -50px;
+}
+
+.price__content--left {
+    width: 50%;
+    padding: 0px 50px;
+}
+
+.price__content--title {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.price__list {}
+
+.price__list--item {
+    margin-bottom: 20px;
+    font-family: 'RobotoCondensed-Light';
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.price__content--right {
+    width: 50%;
+    padding: 0px 50px;
+}
